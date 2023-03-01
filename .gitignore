@@ -1,0 +1,9 @@
+# 過濾 Mac 生成的奇怪文件
+.DS_Store
+
+# 過濾所有名為 raw, img 的文件
+/**/raw
+/**/img
+
+# 去除 npm modules
+/**/node_modules
